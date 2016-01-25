@@ -4,7 +4,8 @@
   "description": "> a community conference for all things npm, http://npm.github.io/npm-camp/",
   "main": "index.js",
   "scripts": {
-    "start": "live-server ./"
+    "start": "live-server ./",
+    "deploy": "surge ./"
   },
   "repository": {
     "type": "git",
@@ -18,7 +19,8 @@
   },
   "homepage": "https://github.com/npm/npm-camp#readme",
   "devDependencies": {
-    "live-server": "^0.9.0"
+    "live-server": "^0.9.0",
+    "surge": "0.17.7"
   },
   "dependencies": {
     "npm-styles": "^1.7.0"
