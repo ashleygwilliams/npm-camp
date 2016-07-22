@@ -52,12 +52,16 @@ h1 {
 
 .sponsors-silver img {
   width: 200px;
-  margin: 20px;
+  margin: 0px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
-.sponsors-supporting, .sponsors-diversity img {
+.sponsors-supporting img, .sponsors-diversity img {
   width: 175px;
-  margin: 20px;
+  margin: 0px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .sponsors img, .sponsor {
