@@ -33,36 +33,15 @@ h1 {
   font-size: 2em;
 }
 
-/* Jon adds sponsor-tier-specific image formatting */
-
-.sponsors, .sponsors-gold, .sponsors-silver, .sponsors-supporting, .sponsors-diversity {
-  text-align: center;
-  border: 1px white solid;
-  background-color: #2a303c;
-}
-
-.sponsors, .sponsors-gold, .sponsors-silver, .sponsors-supporting, .sponsors-diversity li {
-  list-style-type: none;
-}
-
-.sponsors-gold img {
-  width: 250px;
-  margin: 20px;
-}
-
-.sponsors-silver img {
-  width: 200px;
-  margin: 20px;
-}
-
-.sponsors-supporting, .sponsors-diversity img {
-  width: 1750px;
-  margin: 20px;
-}
-
 .sponsors img, .sponsor {
   width: 200px;
   margin: 20px;
+}
+
+.sponsors {
+  text-align: center;
+  border: 1px white solid;
+  background-color: #2a303c;
 }
 
 #sponsors {
@@ -70,9 +49,9 @@ h1 {
   padding: 10px;
 }
 
-
-/* end of Jon's mucking-about */
-
+.sponsors li {
+  list-style-type: none;
+}
 
 .details h2 {
   display: inline;
